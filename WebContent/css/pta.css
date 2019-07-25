@@ -1,0 +1,272 @@
+/*
+blue/green color#00b3c7 in h1
+red color in first background section #cf080b
+white text in first background section #ffffff
+inputs background color #02a3b5
+
+*/
+
+body{
+	margin-left: 1%;
+	margin-right: 1%;
+	background-color: #000000;
+	word-wrap: break-word;
+	overflow: auto;
+	font-family: "Segoe UI", Tahoma, Verdana, "sans-serif";
+}
+
+header{
+	background-color: #404040;
+	max-height: 40vh;
+}
+
+h1{
+	font-size: 200%;
+	color: #00b3c7;
+	text-align: left;
+	padding-bottom: 10%;
+	padding-top: 2%;
+	padding-left: 4%;
+	margin: 0%;
+	display: inline-block;
+}
+
+i{
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+nav {
+	display: inline-block;
+	padding-right: 2%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	width: 90%;
+  margin: 0 auto;
+}
+
+nav a{
+	color: #ffffff;
+	font-weight: bold;
+	padding-left: 2%;
+	padding-right: 2%;
+	-webkit-transition: 1s ease-out;
+	transition: 1s ease-out;
+}
+
+nav a:hover{
+	font-weight: bolder;
+	color: #00cfe6;
+	text-decoration:underline;
+}
+
+nav a:after{
+	color: #ffffff;
+}
+
+main {
+	margin: 0%;
+	padding: 1%;
+	background-color: #cf080b;
+	color: #ffffff;
+	font-size: 100%;
+	display: block;
+	clear: both;
+}
+
+main span{
+	font-size: 125%;
+	font-weight: bold;
+}
+
+h2{
+	font-weight: bold;
+	text-align: center;
+}
+
+h2 span{
+	font-size: 80%;
+}
+
+section {
+	margin: 0%;
+	padding: 0%;
+}
+
+.btn-secondary{
+	padding-top: 4%;
+}
+
+.big-buttons{
+	margin: 0%;
+	padding-top: 1%;
+	padding-bottom: 0%;
+}
+
+.img-div {
+	background-image: url("../images/scienceExperiment.jpg");
+	/*background-image: url("../images/fieldTripWithGuide.jpg");*/
+	background-color: #000000;
+	background-repeat: no-repeat;
+	background-size: 90%;
+	background-position: center;
+}
+
+.input-section{
+	background-color: #02a3b5;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+
+.teacher-dept{
+	padding-left: 2%;
+	padding-right: 2%;
+	border: 4px inset #ffffff;
+	padding-bottom: 1%;
+	word-wrap: break-word;
+}
+
+.position-inner{
+	min-height: 350px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	width: 90%;
+	margin: 0 auto;
+}
+
+p span{
+  font-weight: bold;
+}
+
+.error{
+	text-align: center;
+	border: 3px solid #cf080b;
+	color: #cf080b;
+	font-size: 125%;
+	padding: 1%;
+}
+
+table {
+	width: 90%;
+	margin: 0 auto;
+	table-layout: fixed;
+	border: solid #000000 1px;
+}
+
+th{
+	font-size: 110%;
+	font-weight: bold;
+	border: solid #000000 1px;
+	border-bottom: solid #000000 2px;
+}
+
+tr{
+	text-align: center;
+	opacity: 0.8;
+}
+
+td{
+	border: solid #000000 1px;
+	word-wrap: break-word;
+	font-size: 70%;
+}
+
+tr:hover{
+	opacity: 1.0;
+}
+
+footer{
+	text-align: center;
+	background-color: #cf080b;
+}
+
+footer p{
+	font-size: 80%;
+}
+
+footer a{
+	color: #000000;
+	font-weight: bold;
+}
+
+footer a::after{
+	color: #ffffff;
+}
+
+address{
+	font-style: italic;
+}
+
+@media screen and (min-width: 576px) {
+	h1{
+		text-shadow: 2px 2px #161719;
+		font-size: 300%;
+	}
+
+	td{
+		font-size: 90%;
+	}
+
+	.btn-secondary{
+		padding-top: 2%;
+	}
+
+	nav{
+		float: right;
+		width: auto;
+		margin: 0%;
+		padding-left: 2%;
+		padding-right: 2%;
+		padding-top: 2%;
+	}
+
+	nav a {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: end;
+		-webkit-justify-content: flex-end;
+		-ms-flex-pack: end;
+		justify-content: flex-end;
+		-webkit-align-content: flex-start;
+		-ms-flex-line-pack: start;
+		align-content: flex-start;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		text-decoration: none;
+		padding-left: 0%;
+		padding-right: 0%;
+		padding-top: 1%;
+		padding-bottom: 1%;
+	}
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+	h1{
+		font-size: 400%;
+		padding-bottom: 16%;
+	}
+
+	main{
+		font-size: 120%;
+	}
+
+	main span{
+		font-size: 140%;
+	}
+
+	p span{
+		font-size: 110%;
+	}
+
+	td{
+		font-size: 100%;
+	}
+
+}

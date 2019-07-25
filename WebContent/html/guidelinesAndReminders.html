@@ -1,0 +1,36 @@
+<section class = "btn-secondary">
+  <div class = "row big-buttons">
+    <div class = "col-md-6 col-left">
+      <%@include file = "guidelinesToggle.html" %>
+    </div>
+
+    <div class= "col-md-6">
+      <a data-toggle="collapse" href="#reminderDetails" class="btn btn-block btn-dark mx-auto" role="button" aria-expanded="false"
+        aria-controls="reminderDetails">Reminders for Applying<span> </span><i class="fas fa-angle-double-down"></i></a>
+        <br>
+        <ol class="collapse" id="reminderDetails">
+          <li>
+            Complete the application on this webpage.  If the item is for individual classroom use, submit it as a
+            teacher/individual.  If you are representing a larger team, submit it through the department/team option.
+          </li>
+          <li>
+            Please do not request funds for Teachers Pay Teachers or similar services. You may use your classroom
+             supply funds for those expenses rather than completing a grant application.
+          </li>
+          <li>
+            Please do not request funds for projects that begin before the end of the grant cycle closing date.
+             We are unable to decide on grants to approve before the application period closes.
+          </li>
+          <li>
+            We urge you to check that no other funding sources, including funds from
+            <fmt:message bundle="${school}" key="label.header.school_principal"></fmt:message>, are available for your request.
+             You may be able to receive the funds more quickly if another source is available.  Additionally, it
+              will expedite the grants process and may lead to more grants being awarded by the PTA.
+          </li>
+          <li>
+            That&#39;s it!
+          </li>
+        </ol>
+    </div>
+  </div>
+</section>

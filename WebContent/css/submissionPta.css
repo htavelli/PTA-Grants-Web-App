@@ -1,0 +1,48 @@
+label {
+  font-size: 110%;
+}
+
+textarea{
+  height: auto;
+  width: 80vw;
+}
+
+h2{
+  padding: 1%;
+  background-color: #cf080b;
+  color: #ffffff;
+}
+
+h3{
+  border-top: 10px solid #ffffff;
+}
+
+h4, h5{
+  font-style: italic;
+  text-shadow: 1px 1px;
+}
+
+footer{
+  background-color: #00b3c7;
+}
+
+/*.items-div{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  width: 90%;
+  margin: 0 auto;
+  border: 3px inset #ffffff;
+}*/
+
+.input-section{
+  padding-bottom: 2%;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  textarea{
+    width: 40vw;
+  }
+}

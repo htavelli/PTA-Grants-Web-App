@@ -1,0 +1,44 @@
+body{
+  background-color: #404040;
+}
+
+.getStarted {
+  display: none;
+}
+
+h2{
+  padding: 1%;
+}
+
+h3 span, h4 span{
+  font-weight: bold;
+}
+
+.proj_header{
+  border-top: 10px solid #000000;
+}
+
+.input-section{
+  background-color: #f2f2f2;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.approveAmountInput{
+  width: 80%;
+}
+
+.btn {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.btn-dark {
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 0;
+}
+
+footer, main{
+  background-color: #00a1b3;
+}

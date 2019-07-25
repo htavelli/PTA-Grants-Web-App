@@ -1,0 +1,13 @@
+<header>
+
+  <!-- Inserts school name from properties file -->
+  <fmt:setBundle basename="com.hillarytavelli.resources.ApplicationResources" var="school" />
+  <h1><fmt:message bundle="${school}" key="label.header.school_name"></fmt:message>
+    <br>PTA Grants</h1>
+    <nav>
+      <a href = "index">Home</a>
+      <a href = "dashboard">Admin</a>
+      <a href = "https://github.com/htavelli/PTA-Grants-Web-App" target = "_blank">Source Code <i class="fab fa-github"></i></a>
+    </nav>
+
+</header>
