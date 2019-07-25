@@ -39,33 +39,32 @@ All servlets for functionality of the web app.
 Contains a few enums and properties files with error messages and school details.  Created for maintainability.
 
 
-
 #### Utils
 Static formatting and validation utility class and class loader for properties file.  Created for maintainability.
 
 
-## Database Design
+### Database Design
 There are 7 tables for this application.
 
-### Admin
+#### Admin
 Contains username and BCrypt hashed password for admin login verification.
 
-### Grant_Rounds
+#### Grant_Rounds
 Contains details on start date, end date and whether the round is complete.
 
-### Teachers
+#### Teachers
 Contains contact information and name for individual teachers.
 
-### Departments
+#### Departments
 Contains contact information for the point of contact and department details.
 
-### Projects
+#### Projects
 Contains all details on a single project/grant application like start date, future use, total cost.
 
-### Items
+#### Items
 Each row is linked to a particular project with a foreign key and contains details about the individual items of a project.
 
-### Round_Submitter_Project
+#### Round_Submitter_Project
 Links teacher or department (depending on the particular application), projects, and grant_round with foreign keys.
 
 
